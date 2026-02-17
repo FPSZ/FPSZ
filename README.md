@@ -1,50 +1,55 @@
 <div align="center">
 
-  <!-- 1. 顶部：极简终端风格 ID -->
-  <!-- 使用 Fira Code 字体，纯白文字，去掉了复杂的颜色，只保留光标闪烁 -->
+  <!-- 1. 顶部通栏背景图 -->
+  <!-- 替换下方的链接为你那张冰裂纹图片的URL。width="100%" 会让它自动撑满宽度 -->
+  <img src="你的图片链接" width="100%" style="border-radius: 10px; opacity: 0.9;" alt="Banner">
+  
+  <br/>
+  <br/>
+
+  <!-- 2. ID 展示：冰蓝色打字机 -->
   <a href="https://github.com/FPSZ">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=30&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=FPSZ+%2F+Penetr4t10n;Network+Security+%26+Development;Author+of+SeaLantern" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=79C0FF&center=true&vCenter=true&width=500&lines=FPSZ+%2F+Penetr4t10n;Network+Security+Researcher;SeaLantern+Developer" alt="Typing SVG" />
   </a>
 
   <br/>
-  <br/>
-
-  <!-- 2. 简介：纯文字，居中，无 Emoji，高冷 -->
-  <p style="font-size: 16px;">
-    Building <strong>SeaLantern</strong> | Exploring <strong>Web Security</strong>
+  
+  <!-- 3. 简介：极简文字，无 Emoji -->
+  <p style="color: #8b949e; font-family: monospace;">
+    Building <strong>SeaLantern</strong> | Exploring <strong>Dark Webs</strong>
   </p>
 
-  <!-- 3. 链接：放弃丑陋的彩色 Badges，使用纯黑白或文字链接 -->
+  <!-- 4. 链接：幽灵按钮风格 -->
   <p>
-    <a href="https://penetr4t10n.top" style="text-decoration: none; margin: 0 10px;">
-      <strong>[ WEBSITE ]</strong>
+    <a href="https://penetr4t10n.top" style="text-decoration: none;">
+      <img src="https://img.shields.io/badge/WEBSITE-0d1117?style=for-the-badge&logo=firefoxbrowser&logoColor=79c0ff&labelColor=0d1117" alt="Website">
     </a>
-    <a href="mailto:你的邮箱@example.com" style="text-decoration: none; margin: 0 10px;">
-      <strong>[ EMAIL ]</strong>
+    <a href="mailto:你的邮箱@example.com" style="text-decoration: none;">
+      <img src="https://img.shields.io/badge/EMAIL-0d1117?style=for-the-badge&logo=gmail&logoColor=79c0ff&labelColor=0d1117" alt="Email">
     </a>
   </p>
 
   <br/>
-  <br/>
 
-  <!-- 4. 核心：贪吃蛇动画 -->
-  <!-- 这是最吸睛的部分，保留它，但让它孤独地居中 -->
+  <!-- 5. 数据面板：定制了颜色代码 -->
+  <!-- title_color=79c0ff (冰蓝) | text_color=c9d1d9 (灰白) | bg_color=00000000 (透明) -->
+  <table border="0" style="border: none;">
+    <tr style="border: none;">
+      <td style="border: none;">
+        <img src="https://github-readme-stats.vercel.app/api?username=FPSZ&show_icons=true&hide_border=true&title_color=79c0ff&text_color=c9d1d9&icon_color=79c0ff&bg_color=00000000&count_private=true" alt="Stats" height="165" />
+      </td>
+      <td style="border: none;">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FPSZ&layout=compact&hide_border=true&title_color=79c0ff&text_color=c9d1d9&bg_color=00000000&hide_title=true&langs_count=6" alt="Langs" height="165" />
+      </td>
+    </tr>
+  </table>
+
+  <!-- 6. 贪吃蛇动画 -->
+  <!-- 注意：如果还没配置 Action，这里会显示裂开的图标，配置好并运行一次后会自动显示 -->
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FPSZ/FPSZ/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FPSZ/FPSZ/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/FPSZ/FPSZ/output/github-contribution-grid-snake.svg" width="800">
+    <img alt="snake animation" src="https://raw.githubusercontent.com/FPSZ/FPSZ/output/github-contribution-grid-snake.svg" width="850">
   </picture>
-
-  <br/>
-  <br/>
-
-  <!-- 5. 数据面板：关键修改！使用 transparent (透明) 主题 -->
-  <!-- 去掉边框，背景透明，文字颜色适配深色模式，看起来就像是 GitHub 原生自带的功能 -->
-  <img src="https://github-readme-stats.vercel.app/api?username=FPSZ&show_icons=true&theme=transparent&hide_border=true&title_color=ffffff&text_color=9f9f9f&icon_color=ffffff&hide_title=true&count_private=true" height="140" alt="stats" />
-  
-  <br/>
-
-  <!-- 即使是语言统计，也去掉彩条，只留最简洁的紧凑模式 -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FPSZ&layout=compact&theme=transparent&hide_border=true&title_color=ffffff&text_color=9f9f9f&hide_title=true" height="140" alt="languages" />
 
 </div>
