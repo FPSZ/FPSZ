@@ -1,55 +1,48 @@
 <div align="center">
 
-  <!-- 1. 顶部通栏背景图 -->
-  <!-- 替换下方的链接为你那张冰裂纹图片的URL。width="100%" 会让它自动撑满宽度 -->
-  <img src="https://github.com/FPSZ/FPSZ/blob/main/7.webp?raw=true" width="100%" style="border-radius: 10px; opacity: 0.9;" alt="Banner">
-  
-  <br/>
-  <br/>
-
-  <!-- 2. ID 展示：冰蓝色打字机 -->
-  <a href="https://github.com/FPSZ">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=79C0FF&center=true&vCenter=true&width=500&lines=FPSZ+%2F+Penetr4t10n;Network+Security+Researcher;SeaLantern+Developer" alt="Typing SVG" />
-  </a>
+  <!-- 1. 顶部 Banner：强制高度 300px，宽度 100% -->
+  <!-- object-fit: cover 保证图片被裁切而不是被拉伸变形 -->
+  <img src="https://github.com/FPSZ/FPSZ/blob/main/7.webp?raw=true" width="100%" height="300" style="object-fit: cover; border-radius: 10px;" alt="Banner">
 
   <br/>
-  
-  <!-- 3. 简介：极简文字，无 Emoji -->
-  <p style="color: #8b949e; font-family: monospace;">
-    Building <strong>SeaLantern</strong> | Exploring <strong>Dark Webs</strong>
-  </p>
 
-  <!-- 4. 链接：幽灵按钮风格 -->
+  <!-- 2. 文字标题：加粗加大，冰蓝色 -->
+  <h1 style="color: #79c0ff; margin-bottom: 0;">FPSZ / Penetr4t10n</h1>
+  <h3 style="color: #8b949e; margin-top: 0;">Author of SeaLantern</h3>
+
+  <!-- 3. 链接区域 -->
   <p>
-    <a href="https://penetr4t10n.top" style="text-decoration: none;">
-      <img src="https://img.shields.io/badge/WEBSITE-0d1117?style=for-the-badge&logo=firefoxbrowser&logoColor=79c0ff&labelColor=0d1117" alt="Website">
+    <a href="https://penetr4t10n.top" style="text-decoration: none; margin-right: 15px;">
+      <img src="https://img.shields.io/badge/WEBSITE-0d1117?style=flat&logo=firefoxbrowser&logoColor=79c0ff&labelColor=0d1117&color=79c0ff" alt="Website">
     </a>
     <a href="mailto:你的邮箱@example.com" style="text-decoration: none;">
-      <img src="https://img.shields.io/badge/EMAIL-0d1117?style=for-the-badge&logo=gmail&logoColor=79c0ff&labelColor=0d1117" alt="Email">
+      <img src="https://img.shields.io/badge/EMAIL-0d1117?style=flat&logo=gmail&logoColor=79c0ff&labelColor=0d1117&color=79c0ff" alt="Email">
     </a>
   </p>
 
   <br/>
 
-  <!-- 5. 数据面板：定制了颜色代码 -->
-  <!-- title_color=79c0ff (冰蓝) | text_color=c9d1d9 (灰白) | bg_color=00000000 (透明) -->
-  <table border="0" style="border: none;">
-    <tr style="border: none;">
-      <td style="border: none;">
-        <img src="https://github-readme-stats.vercel.app/api?username=FPSZ&show_icons=true&hide_border=true&title_color=79c0ff&text_color=c9d1d9&icon_color=79c0ff&bg_color=00000000&count_private=true" alt="Stats" height="165" />
+  <!-- 4. 数据统计：改为表格布局，防止错位 -->
+  <!-- 使用 transparent 主题实现透明背景，融合黑色 -->
+  <table border="0" width="100%">
+    <tr align="center">
+      <td>
+        <img src="https://github-readme-stats.vercel.app/api?username=FPSZ&show_icons=true&theme=transparent&hide_border=true&title_color=79c0ff&text_color=8b949e&icon_color=79c0ff&count_private=true" alt="FPSZ Stats" height="160" />
       </td>
-      <td style="border: none;">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FPSZ&layout=compact&hide_border=true&title_color=79c0ff&text_color=c9d1d9&bg_color=00000000&hide_title=true&langs_count=6" alt="Langs" height="165" />
+      <td>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FPSZ&layout=compact&theme=transparent&hide_border=true&title_color=79c0ff&text_color=8b949e&langs_count=6&hide_title=true" alt="Top Langs" height="160" />
       </td>
     </tr>
   </table>
 
-  <!-- 6. 贪吃蛇动画 -->
-  <!-- 注意：如果还没配置 Action，这里会显示裂开的图标，配置好并运行一次后会自动显示 -->
+  <br/>
+
+  <!-- 5. 贪吃蛇 -->
+  <!-- 再次提醒：如果这里还是裂图，说明你没有在 Actions 里运行 workflow -->
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FPSZ/FPSZ/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FPSZ/FPSZ/output/github-contribution-grid-snake.svg">
-    <img alt="snake animation" src="https://raw.githubusercontent.com/FPSZ/FPSZ/output/github-contribution-grid-snake.svg" width="850">
+    <img alt="snake animation" src="https://raw.githubusercontent.com/FPSZ/FPSZ/output/github-contribution-grid-snake.svg" width="100%">
   </picture>
 
 </div>
