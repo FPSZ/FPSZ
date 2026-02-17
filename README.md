@@ -26,12 +26,4 @@
 
   <br/>
 
-  <!-- 4. 贪吃蛇动画 -->
-  <!-- 这个是 GitHub 内部生成的，理论上不会裂。如果连这个也裂，直接把下面这一段全删了 -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FPSZ/FPSZ/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FPSZ/FPSZ/output/github-contribution-grid-snake.svg">
-    <img alt="snake animation" src="https://raw.githubusercontent.com/FPSZ/FPSZ/output/github-contribution-grid-snake.svg" width="100%">
-  </picture>
-
 </div>
