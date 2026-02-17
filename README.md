@@ -10,7 +10,7 @@
 
   <!-- 2. 核心文字：冰蓝色 ID -->
   <h1 style="color: #79c0ff; margin-bottom: 0;">FPSZ / Penetr4t10n</h1>
-  <h3 style="color: #8b949e; margin-top: 0;">Author of SeaLantern</h3>
+  <h3 style="color: #8b949e; margin-top: 0;">Author of SeaLantern & Saber Security</h3>
 
   <br/>
 
