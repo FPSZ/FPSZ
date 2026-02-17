@@ -2,7 +2,7 @@
 
   <!-- 1. 顶部通栏背景图 -->
   <!-- 替换下方的链接为你那张冰裂纹图片的URL。width="100%" 会让它自动撑满宽度 -->
-  <img src="你的图片链接" width="100%" style="border-radius: 10px; opacity: 0.9;" alt="Banner">
+  <img src="https://github.com/FPSZ/FPSZ/blob/main/7.webp?raw=true" width="100%" style="border-radius: 10px; opacity: 0.9;" alt="Banner">
   
   <br/>
   <br/>
